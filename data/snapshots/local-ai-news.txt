@@ -1,0 +1,5 @@
+AI Teknoloji Haberleri
+Model X, 256K context window desteği sunuyor.
+API fiyatı 1 milyon token için 8 dolardır.
+Servis Avrupa bölgesinde kullanılabilir.
+Yeni görüntü işleme özelliği kullanıma sunuldu.

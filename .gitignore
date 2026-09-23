@@ -1,0 +1,56 @@
+# ---------------------------------------------------------
+# SECRETS
+#
+# .env gercek credential tasir ve ASLA commit edilmemelidir.
+# .env.example yalnizca placeholder icerir ve TAKIP EDILIR.
+#
+# Negatif kural (!.env.example) .env.* kuralindan SONRA
+# gelmelidir; yoksa ornek dosya da ignore edilir.
+# ---------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+
+# ---------------------------------------------------------
+# PYTHON
+# ---------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# ---------------------------------------------------------
+# NODE / FRONTEND
+# ---------------------------------------------------------
+
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+npm-debug.log*
+yarn-error.log*
+
+
+# ---------------------------------------------------------
+# EDITOR / OS
+# ---------------------------------------------------------
+
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
